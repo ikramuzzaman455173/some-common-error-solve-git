@@ -29,3 +29,17 @@ git merge origin/main
 # Step 5: Push Your Changes
 git push origin main
 # Replace 'main' with your branch name
+```
+
+### New Common 2 most usefull git command add:)
+
+```bash
+# Clone the repository and checkout the "react-mini" branch
+git clone --single-branch -b "react-mini" git@github.com:safak/youtube23.git
+
+# Remove the last commit (use --hard if you want to discard changes)
+git reset --soft HEAD^
+
+# Force-push the changes to the remote branch on GitHub
+git push origin "react-mini" --force
+```
